@@ -22,7 +22,7 @@ public class Main {
 
         //  1.1
         System.out.println("----------------------------- Index of -----------------------------");
-        System.out.println("Requested index: " + tablica1(tablica, 3));
+        System.out.println("Requested index: " + getIndex(tablica, 3));
 
         //  1.2
         System.out.println("----------------------------- Primes -----------------------------");
@@ -82,7 +82,7 @@ public class Main {
         return true;
     }
 
-    private static Integer tablica1(Integer[] tablica, int i) {
+    private static Integer getIndex(Integer[] tablica, int i) {
         for (int j = 0; j < tablica.length; j++) {
             if (tablica[j] == i) {
                 return j;
